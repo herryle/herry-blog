@@ -1,0 +1,72 @@
+//以$(美元符号)定义得都是变量，可以单独放在以_+名字得scss文件中
+//colors
+$colors: (
+  'primary': #2d8cf0,
+  'grey':#808695,
+  'grey-1':#f0f0f0,
+  'dark':#337ab7,
+  'white':#fff,
+  'black':#464c5b,
+  'black-1':#17233d
+);
+
+//边框颜色
+// $border-color: map-get(
+//   $map: $colors,
+//   $key: 'light-1'
+// );
+
+//font-size
+// $base-font-size: 1rem;
+$font-size: (
+  sm:.923077rem /* 12/13 */,
+  md:1.076923rem /* 14/13 */,
+  lg:1.384615rem /* 18/13 */
+  // xxs: 0.738462rem /* 9.6/13 */,
+  // xs: 0.769231rem /* 10/13 */,
+  // sm: 0.923077rem /* 12/13 */,
+  // md: 1.076923rem /* 14/13 */,
+  // lg: 1.076923rem /* 14/13 */,
+  // xl: 1.230769rem /* 16/13 */
+);
+
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around
+);
+
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch
+);
+
+//spacing
+// 0-5：0
+//.mt-1=>margin top
+$spacing-types: (
+  m: margin,
+  p: padding
+);
+
+$spacing-direcction: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+
+$spacing-base-size: 1rem;
+
+$spacing-sizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  5: 3
+);
