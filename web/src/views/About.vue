@@ -1,7 +1,13 @@
 <template>
-  <div class="page-about">Hello，欢迎您的来到这里。</div>
+  <div class="page-about">
+    <div class="content">
+      Hello，欢迎你来到里，这是我开发的个人博客，代码已开源到<a
+        href="https://github.com/herryle/herry-blog"
+        >Github</a
+      >，欢迎pr和star。
+    </div>
+  </div>
 </template>
-
 
 <style lang="scss">
 .page-about {

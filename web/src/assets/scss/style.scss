@@ -18,6 +18,23 @@ body {
   background: #f0f0f0;
   -webkit-font-smoothing: antialiased;
 }
+@media screen and (max-width: 600px) {
+  .page-article {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .header-inner {
+    width: 100%;
+  }
+  .page-about {
+    width: 100%;
+  }
+}
 
 .w-100 {
   width: 100%;
